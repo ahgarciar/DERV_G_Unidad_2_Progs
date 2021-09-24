@@ -35,10 +35,12 @@ public class RotacionMouse : MonoBehaviour
         ejeRotacionObj = Input.GetAxis("Mouse X");
         ejeRotacionCam += Input.GetAxis("Mouse Y")*speedX;
 
+        //                x       y                  z
+        transform.Rotate(0, ejeRotacionObj * speedY, 0);
 
-        this.transform.Rotate(0, ejeRotacionObj * speedY, 0);
 
         ejeRotacionCam = Mathf.Clamp(ejeRotacionCam, -25, 25);
+        //                                                x              y   z
         camara.transform.localEulerAngles = new Vector3(-ejeRotacionCam, 0f, 0f);
 
         

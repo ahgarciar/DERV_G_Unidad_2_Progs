@@ -140,7 +140,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &109169792
 BoxCollider:
@@ -270,7 +270,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8b6feb9efd9502248ba882f089cbda4a, type: 2}
+  - {fileID: 2100000, guid: a3f8725ad50fe5f46aac861488068db5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -460,7 +460,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e8b5795a1563da4f84a93a486d7f583, type: 2}
+  - {fileID: 2100000, guid: 6d042239641b328469beb196d88a4e37, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -529,10 +529,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1529167374}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8dff8af7886aca44acd87ac73f0b58a, type: 3}
+  m_Script: {fileID: 11500000, guid: 53e3a7df08f20ab4a858852e8fcea011, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedForce: 1000
+  speedForce: 100
 --- !u!1 &2040379824
 GameObject:
   m_ObjectHideFlags: 0

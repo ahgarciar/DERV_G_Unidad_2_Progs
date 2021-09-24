@@ -23,6 +23,11 @@ public class Mov_Fuerzas : MonoBehaviour
 
     private void FixedUpdate()
     {
+        //
+        //Vector3.forward  <<<--- coordenadas globales 
+        //transform.forward <<<-- coordenadas locales
+        //new Vector3(0, 0, 1)  <<<-- coordenadas personalizadas
+
         if (Input.GetKey(KeyCode.W))
         {            
             rb.AddForce(transform.forward * speedForce, ForceMode.Acceleration);

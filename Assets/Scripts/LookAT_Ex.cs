@@ -5,7 +5,7 @@ using UnityEngine;
 public class LookAT_Ex : MonoBehaviour
 {
     [SerializeField]
-    GameObject objMirar;
+    public GameObject objMirar;
 
     // Start is called before the first frame update
     void Start()
@@ -17,10 +17,12 @@ public class LookAT_Ex : MonoBehaviour
     void Update()
     {
         //transform.LookAt(objMirar.transform);
-                
+
+        
         Vector3 pos = objMirar.transform.position;
         pos.y = 0;
         transform.LookAt(pos);
         
+
     }
 }

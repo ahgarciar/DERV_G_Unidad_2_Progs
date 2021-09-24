@@ -228,8 +228,8 @@ GameObject:
   m_Component:
   - component: {fileID: 693155632}
   - component: {fileID: 693155631}
-  - component: {fileID: 693155633}
   - component: {fileID: 693155634}
+  - component: {fileID: 693155633}
   m_Layer: 0
   m_Name: Personaje
   m_TagString: Untagged
@@ -278,7 +278,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 693155630}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6b514ddf74527241a446ee68915613f, type: 3}
+  m_Script: {fileID: 11500000, guid: a2919720cae271c4d8881fa74f4874f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   objMirar: {fileID: 109169791}
@@ -347,7 +347,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8b6feb9efd9502248ba882f089cbda4a, type: 2}
+  - {fileID: 2100000, guid: a3f8725ad50fe5f46aac861488068db5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -602,7 +602,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e8b5795a1563da4f84a93a486d7f583, type: 2}
+  - {fileID: 2100000, guid: 6d042239641b328469beb196d88a4e37, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
