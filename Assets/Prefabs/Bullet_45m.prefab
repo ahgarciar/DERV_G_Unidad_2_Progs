@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 75316545807523274}
   - component: {fileID: 75316545807523275}
   - component: {fileID: 75316545807523268}
-  - component: {fileID: 4460713062565938972}
+  - component: {fileID: 6993128021968769214}
   m_Layer: 0
   m_Name: Bullet_45m
-  m_TagString: Untagged
+  m_TagString: Bala
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64,7 +64,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidadMov: 0.5
---- !u!65 &4460713062565938972
+--- !u!65 &6993128021968769214
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -75,8 +75,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.009963498, y: 0.010781503, z: 0.04683109}
-  m_Center: {x: -0.00037949526, y: -0.000112270674, z: 0.022798672}
+  m_Size: {x: 0.012388178, y: 0.0153046455, z: 0.053071387}
+  m_Center: {x: -0.00036582048, y: -0.0004728233, z: 0.022626903}
 --- !u!1 &3763796313479877644
 GameObject:
   m_ObjectHideFlags: 0
